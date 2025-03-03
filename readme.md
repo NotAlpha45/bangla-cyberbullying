@@ -14,23 +14,26 @@ This project aims to develop and evaluate machine learning models for detecting 
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/bangla-cyberbullying.git
    cd bangla-cyberbullying
    ```
 
 2. Create and activate a virtual environment (recommended):
+
    ```bash
    python -m venv venv
-   
+
    # On Windows
    venv\Scripts\activate
-   
+
    # On macOS/Linux
    source venv/bin/activate
    ```
 
 3. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
