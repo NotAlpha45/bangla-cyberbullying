@@ -32,6 +32,11 @@ This project aims to develop and evaluate machine learning models for detecting 
    source venv/bin/activate
    ```
 
+   > **Note:** You can also create a virtual environment using the `uv` package manager to suit the Python version:
+   > ```bash
+   > uv venv venv python=3.12.4
+   > ```
+
 3. Install dependencies:
 
    ```bash
