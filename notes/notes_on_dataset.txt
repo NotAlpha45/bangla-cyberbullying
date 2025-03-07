@@ -1,0 +1,34 @@
+Before text cleaning :
+-----------------
+-----------------
+
+Original = 44,001
+Original + Augmented = 58,812
+
+Therefore, size of only Augmented (Before cleaning) = 58,812 - 44,001 = 14,811
+
+
+After text cleaning:
+-------------------
+-------------------
+
+Empty strings in Original = 85
+Empty strings in Original + Augmented = 4,154
+
+Duplicates in Original = 2,009
+Duplicates in Original + Augmented = 6,670
+
+Therefore, final size of Original = (44,001 - 85 - 2,009) = 41,907
+Therefore, final size of Original + Augmented = (58,812 - 4,154 - 6,670) = 47,988
+
+Therefore, final size of only Augmented (After Cleaning) = (47,988 - 41,907) = 6,081
+
+Therefore, size reduction of only Augmented after cleaning = (14,811 - 6,081) = 8,730
+
+To proove, 
+----------
+Duplicates in Augmented = (6,670 - 2,009) = 4,661 
+Empty strings in Augmented = (4,154 - 85) = 4,069
+
+Total garbage in Augmented = (4,661 + 4,069) = 8,730
+(Which is equal to the size reduction)
